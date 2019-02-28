@@ -31,5 +31,5 @@ Resources:
 
 Outputs:
   webserverIp:
-    Description: The IP address that the webserver is listening on
+    Description: IP address that the webserver is listening on
     Value: !GetAtt webserver.PublicIp
