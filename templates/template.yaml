@@ -1,3 +1,8 @@
+Outputs:
+  webserverIPAddress:
+    Description: where to send traffic to
+    Value: !GetAtt webserver.PublicIp
+
 Resources:
   securityGroup:
     Type: AWS::EC2::SecurityGroup
